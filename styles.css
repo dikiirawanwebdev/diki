@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1;
+}
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+header {
+p {
+    font-family: "Playfair Display";
+    font-size: 15px;
+    }
+    background-image: url('asc.png'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 300px;
+    color: white;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+h2{
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-size: 27px;
+    }
+
+.profile-pic {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    margin-bottom: 15px;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #B04CDE;
+}
+
+.project {
+    background: #f4f4f4;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
